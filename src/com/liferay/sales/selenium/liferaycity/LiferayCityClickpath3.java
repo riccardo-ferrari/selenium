@@ -1,10 +1,11 @@
 package com.liferay.sales.selenium.liferaycity;
 
 import com.liferay.sales.selenium.api.DriverInitializer;
-import org.openqa.selenium.WebElement;
 
 import java.util.Collections;
 import java.util.List;
+
+import org.openqa.selenium.WebElement;
 
 public class LiferayCityClickpath3 extends LiferayCityBaseClickpath {
 
@@ -40,7 +41,7 @@ public class LiferayCityClickpath3 extends LiferayCityBaseClickpath {
         sleep(1000);
 
         doClickText(oneOf("FAQs", "Preguntas"));
-        List<WebElement> faqEntries = getElementsByXPath("//a[@class='drop-question']");
+        List<WebElement> faqEntries = getElementsByXPath("//div[@class='drop-question']");
         Collections.shuffle(faqEntries);
         WebElement faqEntry = faqEntries.get(0);
         scrollTo(faqEntry);
