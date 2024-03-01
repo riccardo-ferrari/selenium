@@ -8,15 +8,25 @@ It has been refactored to promote reuse, avoid duplication and allow new scripts
 
 ## Highlights
 
+### Superclass
+
 There are methods in ClickpathBase which allow scripts to mark elements using various CSS techniques, there is
 the ability to take screenshots of the page.
+
+### VPN
 
 The UoW script has examples of how to automate VPN connections using [Tunnelblick](https://tunnelblick.net/), which is
 an open source application for macOS which allows you to connect to OpenVPN compatible VPN servers. The script also
 makes use of an Open Scripting Architecture command to connect and disconnect to a set of VPN configurations at random.
 
+### Command Line Interface
+
 The UoW script also has an example of how [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/) can be used
 to execute the script from the command line.
+
+### Do Not Track Detection
+
+In case your browser sends a Do Not Track header, this would cause AC to not register your traffic. The scripts can detect this with the help of [this plugin](https://github.com/olafk/liferay-request-attribute-contributor-web) deployed to your DXP instance, and the fragment described in the README on your Master Page.
 
 ## Drivers
 
