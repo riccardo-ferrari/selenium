@@ -10,6 +10,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import java.io.*;
 import java.time.LocalDateTime;
@@ -178,7 +179,11 @@ public abstract class ClickpathBase {
             log("INFO (doClickText): Clicking " + match + " match " + linkText);
         }
 
-        elements.get(0).click();
+        Actions actions = new Actions(getDriver());
+        actions.moveToElement(elements.get(0));
+        actions.click();
+        actions.perform();
+//        elements.get(0).click();
         sleep(defaultSleep);
     }
 
