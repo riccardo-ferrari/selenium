@@ -32,7 +32,7 @@
                             <archive>
                                 <manifest>
                                     <!-- Change this depending on which project needs to be packaged -->
-                                    <mainClass>com.liferay.sales.selenium.uow.UoWScriptManager</mainClass>
+                                    <mainClass>com.liferay.sales.selenium.liferaycity.LiferayCity</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
@@ -43,6 +43,11 @@
                 </executions>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>resources</directory>
+            </resource>
+        </resources>
     </build>
     <dependencies>
         <dependency>
