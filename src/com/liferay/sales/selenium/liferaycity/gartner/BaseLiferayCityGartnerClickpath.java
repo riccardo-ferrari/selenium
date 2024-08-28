@@ -124,7 +124,7 @@ public abstract class BaseLiferayCityGartnerClickpath extends
 	protected final String[] NEWS_LINKS_TEXTS = {
 		"Carnival is coming",
 		"Commitment to improve technology",
-		"LiferayCity opens a new library",
+		"LiferayCity opens a new library to citizens",
 		"More than 200 older people"
 	};
 
@@ -142,21 +142,31 @@ public abstract class BaseLiferayCityGartnerClickpath extends
 		"BOE-A-2021-3982",
 		"BOE-A-2021-3983",
 		"BOE-A-2021-3986",
-		"mapa-metro-barcelona-2021",
-		"Metro Subway Map",
-		"Turism Map"
+		"BOE-S-2021-63",
+		"sumari_ca",
+		"mapa-metro-2021",
+		"Metro Subway North",
+		"Metro Subway South",
+		"Red de Metro y Metro Ligero",
+		"Mapa de Turismo",
+		"Public Transport"
 	};
 
 	protected final String[] DOCUMENTS_BUSINESS = {
 		"BOE-A-2021-3982",
 		"BOE-A-2021-3983",
-		"BOE-A-2021-3986"
+		"BOE-A-2021-3986",
+		"BOE-S-2021-63",
+		"sumari_ca"
 	};
 
 	protected final String[] DOCUMENTS_TRANSPORT = {
-		"mapa-metro-barcelona-2021",
-		"Metro Subway Map",
-		"Turism Map"
+		"mapa-metro-2021",
+		"Metro Subway North",
+		"Metro Subway South",
+		"Red de Metro y Metro Ligero",
+		"Mapa de Turismo",
+		"Public Transport"
 	};
 
 	public BaseLiferayCityGartnerClickpath(
