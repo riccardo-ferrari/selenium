@@ -105,7 +105,23 @@ public class LiferayCity extends ScriptManager {
         userPaths.put("ac12", "city2");
         userPaths.put("ac13", "city4");
         userPaths.put("ac14", "business4");
+
         userPaths.put("ac15", "city1");
+        userPaths.put("ac16", "business1");
+        userPaths.put("ac17", "business2");
+        userPaths.put("ac18", "business3");
+        userPaths.put("ac19", "business4");
+        userPaths.put("ac20", "business1");
+        userPaths.put("ac21", "business2");
+        userPaths.put("ac22", "city1");
+        userPaths.put("ac23", "city2");
+        userPaths.put("ac24", "city3");
+        userPaths.put("ac25", "city4");
+        userPaths.put("ac26", "city1");
+        userPaths.put("ac27", "city2");
+        userPaths.put("ac28", "city4");
+        userPaths.put("ac29", "business4");
+        userPaths.put("ac30", "city1");
 
 // Typically, nothing more to "configure" below this line. 
 // Anything that you need to customize your scripts is above.
