@@ -8,7 +8,7 @@ RUN mkdir /opt/app
 
 RUN mkdir /opt/data
 
-COPY resources/users.csv /opt/data/users.csv
+COPY resources/*.csv /opt/data/
 
 COPY target/$JAR_NAME /opt/app/selenium-app.jar
 
